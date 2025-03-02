@@ -9,7 +9,7 @@ const {HOME, ONBOARDING, TODOS} = SCREENS;
 const AppNavigation = () => {
   const Stack = createNativeStackNavigator();
   return (
-    <Stack.Navigator initialRouteName={TODOS}>
+    <Stack.Navigator initialRouteName={HOME}>
       <Stack.Screen name={HOME} component={HomeScreen} />
       <Stack.Screen name={ONBOARDING} component={OnboardingScreen} />
       <Stack.Screen

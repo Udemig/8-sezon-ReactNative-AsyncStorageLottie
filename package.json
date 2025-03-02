@@ -10,6 +10,8 @@
     "test": "jest"
   },
   "dependencies": {
+    "@dotlottie/react-player": "^1.6.19",
+    "@react-native-async-storage/async-storage": "^2.0.0",
     "@react-navigation/native": "^6.1.18",
     "@react-navigation/native-stack": "^6.11.0",
     "iconsax-react-native": "^0.0.8",
@@ -18,7 +20,8 @@
     "react-native-linear-gradient": "^2.8.3",
     "react-native-safe-area-context": "^5.2.0",
     "react-native-screens": "^4.9.0",
-    "react-native-svg": "^15.11.1"
+    "react-native-svg": "^15.11.1",
+    "react-native-uuid": "^2.0.3"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

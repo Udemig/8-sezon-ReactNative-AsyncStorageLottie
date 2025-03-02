@@ -1,11 +1,13 @@
-import {StyleSheet, Text, View} from 'react-native';
-import React from 'react';
+import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import Lottie from 'lottie-react-native';
 
 const HomeScreen = () => {
   return (
-    <View>
-      <Text>HomeScreen</Text>
-    </View>
+    <SafeAreaView>
+      <View style={{flex: 1}}>
+        <Lottie source={require('../assets/animations/confetti.json')} />
+      </View>
+    </SafeAreaView>
   );
 };
 
